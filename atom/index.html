@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles/styles.css" rel="style" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>ATOM - Revolutionizing Energy Storage</title>
   </head>
   <body>
-    <div id="content">
+    <div class="grid-container">
       <header class="nav-bar">
         <div id="logo-name">
           <a id="logo_link" href="index.html"
-            ><img src="images/logo.png" alt="ATOM logo"
+            ><img class="logo_image" src="images/logo.png" alt="ATOM logo"
           /></a>
           <p class="atom-name">ATOM</p>
         </div>
@@ -21,16 +21,18 @@
         </nav>
       </header>
       <main>
-        <section id="hero">
+        <div class="hero">
           <img src="images/battery2.jpg" alt="battery of the future" />
-          <h1>Revolutionizing Energy Storage</h1>
-          <p>
-            Explore how ATOM batteries can power the future, from aviation and
-            maritime to automotive and telecommunications.
-          </p>
-          <button>Get quote</button>
-        </section>
-        <section class="clients>">
+          <div class="hero_text">
+            <h1>Revolutionizing Energy Storage</h1>
+            <p>
+              Explore how ATOM batteries can power the future, from aviation and
+              maritime to automotive and telecommunications.
+            </p>
+            <button>Get quote</button>
+          </div>
+        </div>
+        <section class="clients">
           <h2>Our clients</h2>
           <p>We have been working with some Fortune 500+ clients</p>
           <div class="company-logos">
@@ -60,88 +62,94 @@
           </div>
         </section>
         <section class="characteristics-container">
-          <h2 class="why-title">
-            Join us in our journey to create a more efficient and sustainable
-            world
+          <h2>
+            Join us in our journey to create a more <br />
+            efficient and sustainable world
           </h2>
-          <div class="why-container">
-            <img src="images/power.png" alt="power-icon" />
-            <h5>Why Choose ATOM?</h5>
-            <ul>
-              <li>Minimal rare materials</li>
-              <li>Lightweight design</li>
-              <li>Super long-lasting performance</li>
-              <li>Easy and scalable production</li>
-              <li>Competitive pricing</li>
-            </ul>
-          </div>
-          <div class="applications-container">
-            <img src="images/electric.png" alt="electricicty-icon" />
-            <h5>Applications</h5>
-            <ul>
-              <li>Aviation</li>
-              <li>Maritime</li>
-              <li>Automotive</li>
-              <li>Telecommunications</li>
-              <li>Large-capacity storage for renewable energy</li>
-            </ul>
+          <div class="characteristics-grid">
+            <div class="why-container">
+              <img src="images/power.png" alt="power-icon" />
+              <h5>Why Choose ATOM?</h5>
+              <ul>
+                <li>Minimal rare materials</li>
+                <li>Lightweight design</li>
+                <li>Super long-lasting performance</li>
+                <li>Easy and scalable production</li>
+                <li>Competitive pricing</li>
+              </ul>
+            </div>
+            <div class="applications-container">
+              <img src="images/electric.png" alt="electricity-icon" />
+              <h5>Applications</h5>
+              <ul>
+                <li>Aviation</li>
+                <li>Maritime</li>
+                <li>Automotive</li>
+                <li>Telecommunications</li>
+                <li>Large-capacity storage for renewable energy</li>
+              </ul>
+            </div>
           </div>
         </section>
-        <div class="why-atom">
-          <img src="images/car.jpg" alt="electric car" />
-          <div id="why-container">
-            <p id="why-paragraph">
-              At ATOM, we are redefining the future of energy storage with our
-              cutting-edge battery technology. Our mission is to provide
-              innovative, sustainable, and cost-effective energy solutions for
-              businesses and industries worldwide. With our patented technology,
-              we offer batteries that are lightweight, long-lasting, and easy to
-              produce on a large scale, making them perfect for a wide range of
-              applications.
-            </p>
-            <button>Get quote</button>
+        <div class="white_container">
+          <div class="why-atom">
+            <img class="image-car" src="images/car.jpg" alt="electric car" />
+            <div id="why-container">
+              <p id="why-paragraph">
+                At ATOM, we are redefining the future of energy storage with our
+                cutting-edge battery technology. Our mission is to provide
+                innovative, sustainable, and cost-effective energy solutions for
+                businesses and industries worldwide. With our patented
+                technology, we offer batteries that are lightweight,
+                long-lasting, and easy to produce on a large scale, making them
+                perfect for a wide range of applications.
+              </p>
+              <button>Get quote</button>
+            </div>
           </div>
         </div>
       </main>
-    </div>
-    <footer>
-      <div class="footer-section-1">
-        <p class="atom-name">ATOM</p>
-        <p class="footer-copy">Copyright © 2024 ATOM.</p>
-        <p class="footer-copy">All rights reserved.</p>
-        <div id="social-icons">
-          <a href="https://instagram.com" target="_blank">
-            <img src="images/inglogo.png" alt="instagram icon" />
-          </a>
-          <a href="https://twitter.com" target="_blank">
-            <img src="images/twiterlogo.png" alt="twitter icon" />
-          </a>
-          <a href="https://youtube.com" target="_blank">
-            <img src="images/ytlogo.png" alt="youtube icon" />
-          </a>
-        </div>
-        <div id="company-column">
-          <h6>Company</h6>
-          <a class="technology" href="technology.html">Technology</a>
-          <a class="applications-container" href="applications.html"
-            >Applications</a
-          >
-          <a class="site-plan" href="site-plan.html">Site plan</a>
-        </div>
-        <div id="subcriber-container">
-          <h6>Stay up to day</h6>
-          <div id="input-container">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your email address"
-              class="subscribe-input"
-            />
-            <button class="subscribe-button">&#10148;</button>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section-1">
+            <p class="atom-name-footer">ATOM</p>
+            <p class="footer-copy">Copyright © 2024 ATOM.</p>
+            <p class="footer-copy">All rights reserved.</p>
+            <div class="social-icons">
+              <a href="https://instagram.com" target="_blank">
+                <img src="images/inglogo.png" alt="instagram icon" />
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <img src="images/twiterlogo.png" alt="twitter icon" />
+              </a>
+              <a href="https://youtube.com" target="_blank">
+                <img src="images/ytlogo.png" alt="youtube icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section-2">
+            <h4>Company</h4>
+            <a href="technology.html">Technology</a>
+            <a href="applications.html">Applications</a>
+            <a href="site-plan.html">Site Plan</a>
+          </div>
+
+          <div class="footer-section-3">
+            <h4>Stay up to date</h4>
+            <div class="input-container">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email address"
+                class="subscribe-input"
+              />
+              <button class="subscribe-button">&#10148;</button>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
