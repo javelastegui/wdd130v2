@@ -436,3 +436,103 @@ footer {
 .subscribe-button:hover {
   background-color: #0a0a23;
 }
+
+.main-container {
+  background-color: #0c0f27;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.white-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5% 4%;
+}
+
+.hero-technology {
+  text-align: center;
+  padding: 6% 26% 9% 26%;
+}
+
+.hero-technology h1 {
+  margin-bottom: 4%;
+}
+
+.hero-technology p {
+  color: #d3d3d3;
+}
+
+.white-box img {
+  width: 380px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.container-1 {
+  display: flex;
+  padding-bottom: 6%;
+  align-items: center;
+}
+
+.text-1 {
+  margin-left: 5%;
+}
+
+.text-1 h2 {
+  margin-bottom: 2%;
+}
+
+.container-2 {
+  display: flex;
+  padding-bottom: 6%;
+  align-items: center;
+}
+
+.text-2 {
+  margin-right: 5%;
+}
+
+.text-2 h2 {
+  margin-bottom: 2%;
+}
+
+.container-3 {
+  display: flex;
+  padding-bottom: 6%;
+  align-items: center;
+}
+
+.text-3 {
+  margin-left: 5%;
+}
+
+.text-3 h2 {
+  margin-bottom: 2%;
+}
+
+.container-4 {
+  display: flex;
+  padding-bottom: 6%;
+  align-items: center;
+}
+
+.text-4 {
+  margin-right: 5%;
+}
+
+.text-4 h2 {
+  margin-bottom: 2%;
+}
+
+.button_container {
+  background-color: #0c0f27;
+  color: white;
+  margin: 10px auto 4%;
+}
+
+.button_container:hover {
+  background-color: #c7c7c7;
+  color: #0c0f27;
+}
